@@ -1,0 +1,12 @@
+# fastq_reads
+Count fastq reads
+
+## Introduction
+* This is a real simple script to count fastq reads, literally count the lines of fastq file and divide by 4 (as each sequencing read in fastq file is represented by 4 lines including the identifier,sequence letter, +/- strand and quality values).
+
+## Usage
+```
+% ./fastq_reads.sh FASTQFILE
+```
+* FASTQFILE is a fastq file ends with .fastq
+* The output file will be named as FASTQFILE-fastq_reads

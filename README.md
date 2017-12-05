@@ -10,4 +10,4 @@ Count fastq reads
 ```
 * FASTQFILE is a fastq file ends with .fastq
 * What is a fastq file? Please read: https://en.wikipedia.org/wiki/FASTQ_format
-* The output file will be named as FASTQFILE-fastq_reads
+* The read count will be displayed on the standard output (your screen)
